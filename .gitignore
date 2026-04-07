@@ -1,0 +1,50 @@
+# UE5.4 Gitignore
+
+# Compiled source files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Build/
+
+# Saved (local editor state)
+Saved/
+
+# Visual Studio
+.vs/
+.vscode/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Rider
+.idea/
+
+# OS generated
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Unreal-specific
+*.log
+*.tmp
+*.pidb
+*.psess
+*.vsp
+*.vspx
+
+# Packaging
+*.pak
+
+# Engine (skip if using launcher/engine install)
+# Uncomment if your engine is not part of the repo:
+# Engine/
+
+# Platform-specific
+*.xcodeproj
+*.xcworkspace
+*.pbxproj
